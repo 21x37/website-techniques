@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(black-cat.jpeg);
+    background-size: cover;
+}
+
+.name {
+    position: relative;
+    letter-spacing: -.5;
+    font-weight: 100;
+    transform: translateY(400%);
+    color: #FFF;
+    opacity: 0.1;
+    animation: fade 4s both infinite; 
+    top: 600px;
+    right: 100px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#sidebar {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    background: #fff;
+    left: -300px;
+    transition: .4s;
+ 
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#sidebar ul li {
+    list-style: none;
+    color: #000;
+    font-size: 30px;
+    padding: 20px;
+    padding: 30px 80px;
+    
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    top: 30px;
+    left: 330px;
+    cursor: pointer;
+}
+
+.toggle-btn span {
+    width: 45px;
+    height: 4px;
+    background: #fff;
+    display: block;
+    margin-top: 4px;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0.1;
+    }
+}
