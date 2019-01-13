@@ -7,19 +7,33 @@
         <link rel='stylesheet' type='text/css' href='animate.css'>
     </head>
     <body>
+        <div id='sidebar'>
+            <div class='toggle-btn' onclick='show()'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <a><li>Home</li></a>
+                <a><li>Work</li></a>
+                <a><li>About</li></a>
+                <a><li>Contact</li></a>
+            </ul>
+        </div>
+            <div>
+                <h1 class='name'></h1>
+        </div>
 
         <h1 class='animated fadeInDown'>21X37</h1>
-        <div class='container'>
-            <div class='row'>
+        <div class='container' id=column>
+            <div class='row' id='column'>
                 <div class='column animated fadeInUp'>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies, diam eu scelerisque cursus, mauris ligula pulvinar justo, vel malesuada sem nibh id est. Nullam sapien magna, tempus sit amet pharetra in, iaculis eu nunc. Nulla facilisi. Duis consequat, lacus a rutrum facilisis, urna massa dictum libero, eget congue quam leo at justo.</p> 
                 </div>
                 <div class='column animated fadeInLeft'>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies, diam eu scelerisque cursus, mauris ligula pulvinar justo, vel malesuada sem nibh id est. Nullam sapien magna, tempus sit amet pharetra in, iaculis eu nunc. Nulla facilisi. Duis consequat, lacus a rutrum facilisis, urna massa dictum libero, eget congue quam leo at justo.</p> 
                 </div>
-                <div class='column animated fadeInUp'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies, diam eu scelerisque cursus, mauris ligula pulvinar justo, vel malesuada sem nibh id est. Nullam sapien magna, tempus sit amet pharetra in, iaculis eu nunc. Nulla facilisi. Duis consequat, lacus a rutrum facilisis, urna massa dictum libero, eget congue quam leo at justo.</p> 
-                </div>  
             </div>
             <div class='row'>
                 <div class='column animated fadeInLeft'>
@@ -28,10 +42,8 @@
                 <div class='column animated fadeInUp'>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies, diam eu scelerisque cursus, mauris ligula pulvinar justo, vel malesuada sem nibh id est. Nullam sapien magna, tempus sit amet pharetra in, iaculis eu nunc. Nulla facilisi. Duis consequat, lacus a rutrum facilisis, urna massa dictum libero, eget congue quam leo at justo.</p> 
                 </div>
-                <div class='column animated fadeInLeft'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies, diam eu scelerisque cursus, mauris ligula pulvinar justo, vel malesuada sem nibh id est. Nullam sapien magna, tempus sit amet pharetra in, iaculis eu nunc. Nulla facilisi. Duis consequat, lacus a rutrum facilisis, urna massa dictum libero, eget congue quam leo at justo.</p> 
-                </div>  
             </div>
         </div>
+        <script src="script.js"></script>
     </body>
 </html>
