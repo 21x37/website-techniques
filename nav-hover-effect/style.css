@@ -35,6 +35,7 @@ body {
     height: 14px;
     width: 14px;
     position: absolute;
+    content: '';
     transition: all 0.35s ease;
     opacity: 0;
 }
